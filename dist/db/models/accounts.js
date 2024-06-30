@@ -33,7 +33,7 @@ const Accounts = _1.default.define('accounts', {
     },
     createdAt: {
         type: sequelize_1.DataTypes.DATE,
-        defaultValue: sequelize_1.Sequelize.fn("NOW"),
+        defaultValue: sequelize_1.Sequelize.fn("NOW"), //이렇게 수정!
         allowNull: false,
     },
     updatedAt: {
