@@ -27,6 +27,8 @@ app.get('/', async (req: Request, res: Response, next: NextFunction) => {
         })
         .catch((e: Error) => {
             console.log(e);
+            // sequelize 의 설정 값 출력
+            console.log(sequelize.config);
         });
 
     res.send('Hi! This is my first express server');
@@ -390,7 +392,7 @@ app.delete('/my/accounts/:accountId/details/:historyId', async (req: Request, re
     });
 });
 
-app.listen('8000', () => {
+app.listen('8001', () => {
     console.log(`
     #############################################
         🛡️ Server listening on port: 8000 🛡️
