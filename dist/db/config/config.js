@@ -8,10 +8,10 @@ const dotenv_1 = __importDefault(require("dotenv"));
 dotenv_1.default.config();
 const config = {
     development: {
-        username: process.env.DB_USERNAME,
-        password: process.env.DB_PASSWORD,
-        database: process.env.DB_DBNAME,
-        host: process.env.DB_HOST,
+        username: process.env.DB_USERNAME, //설정한 username
+        password: process.env.DB_PASSWORD, //설정한 비밀번호
+        database: process.env.DB_DBNAME, //설정한 DB 이름
+        host: process.env.DB_HOST, //엔드포인트
         dialect: "mysql"
     }
 };
