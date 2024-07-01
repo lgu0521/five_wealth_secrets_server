@@ -9,7 +9,6 @@ const sequelize = new sequelize_1.Sequelize(config_1.default.development.databas
     host: config_1.default.development.host,
     dialect: "mysql",
     timezone: "+09:00",
-    port: 3306,
     dialectOptions: { charset: "utf8mb4", dateStrings: true, typeCast: true },
     define: {
         timestamps: true,
