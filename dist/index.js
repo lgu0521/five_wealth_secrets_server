@@ -34,6 +34,8 @@ app.get('/', (req, res, next) => __awaiter(void 0, void 0, void 0, function* () 
     }))
         .catch((e) => {
         console.log(e);
+        // sequelize 의 설정 값 출력
+        console.log(models_1.default.config);
     });
     res.send('Hi! This is my first express server');
 })); // HTTP GET method 정의

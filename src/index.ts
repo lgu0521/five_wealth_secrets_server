@@ -392,7 +392,7 @@ app.delete('/my/accounts/:accountId/details/:historyId', async (req: Request, re
     });
 });
 
-app.listen('8001', () => {
+app.listen('8000', () => {
     console.log(`
     #############################################
         🛡️ Server listening on port: 8000 🛡️
