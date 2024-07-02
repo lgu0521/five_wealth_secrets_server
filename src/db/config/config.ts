@@ -16,10 +16,10 @@ interface IConfig {
 
 const config: IConfig = {
   development: {
-    username: "lgu0521", //설정한 username
-    password: "alsgml21!", //설정한 비밀번호
-    database: "lgu0521", //설정한 DB 이름
-    host: "112.175.185.144", //엔드포인트
+    username: "server", //설정한 username
+    password: "Alsgml21!", //설정한 비밀번호
+    database: "five_wealth_secrets", //설정한 DB 이름
+    host: "ec2-43-202-63-189.ap-northeast-2.compute.amazonaws.com", //엔드포인트
     dialect: "mysql"
   }
 };

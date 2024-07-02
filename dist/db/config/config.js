@@ -9,9 +9,9 @@ dotenv_1.default.config();
 const config = {
     development: {
         username: "server", //설정한 username
-        password: "1234", //설정한 비밀번호
+        password: "Alsgml21!", //설정한 비밀번호
         database: "five_wealth_secrets", //설정한 DB 이름
-        host: "gaeun.hopto.org", //엔드포인트
+        host: "ec2-43-202-63-189.ap-northeast-2.compute.amazonaws.com", //엔드포인트
         dialect: "mysql"
     }
 };
